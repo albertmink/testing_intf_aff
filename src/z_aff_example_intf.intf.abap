@@ -1,13 +1,15 @@
-INTERFACE z_aff_example_intf PUBLIC.
+interface Z_AFF_EXAMPLE_INTF
+  public .
 
-  TYPES ty_example_type TYPE string.
 
-  CONSTANTS co_example_constant TYPE ty_example_type VALUE `ABC123` ##NO_TEXT.
+  types TY_EXAMPLE_TYPE type STRING .
 
-  EVENTS example_event.
+  constants CO_EXAMPLE_CONSTANT type TY_EXAMPLE_TYPE value `ABC123` ##NO_TEXT.
+
+  events EXAMPLE_EVENT .
 
   "! Method description, lorem ipsum
-  METHODS example_method
-    IMPORTING
-      !i_param TYPE ty_example_type.
-ENDINTERFACE.
+  methods EXAMPLE_METHOD
+    importing
+      !I_PARAM type TY_EXAMPLE_TYPE .
+endinterface.
