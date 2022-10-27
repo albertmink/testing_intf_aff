@@ -1,7 +1,7 @@
 {
   "formatVersion": "1",
   "header": {
-    "description": "Example interface for ABAP file formats (AFF)",
+    "description": "Example interface for ABAP file formats",
     "originalLanguage": "en"
   }
 }
