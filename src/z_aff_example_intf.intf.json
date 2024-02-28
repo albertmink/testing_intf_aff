@@ -3,5 +3,13 @@
   "header": {
     "description": "123Example interface for ABAP file formats (AFF)",
     "originalLanguage": "en"
+  },
+  "descriptions": {
+    "methods": [
+      {
+        "name": "EXAMPLE_METHOD",
+        "description": "Method description"
+      }
+    ]
   }
 }
