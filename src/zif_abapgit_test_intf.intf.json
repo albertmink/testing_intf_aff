@@ -5,6 +5,12 @@
     "originalLanguage": "en"
   },
   "descriptions": {
+    "types": [
+      {
+        "name": "TY_EXAMPLE_TYPE",
+        "description": "World"
+      }
+    ],
     "methods": [
       {
         "name": "ONE_METHOD",
